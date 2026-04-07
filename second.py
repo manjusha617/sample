@@ -16,7 +16,7 @@ if st.button("calculate bill"):
     if speed>80:
      total+=1000
     if total>0:
-       st.error("total fine:",total)
+       st.error(f"total fine:{total}")
     else:
        st.success("he didn't have to pay any fine.")
 
