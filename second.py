@@ -18,5 +18,5 @@ if st.button("calculate bill"):
     if total>0:
        st.write("total fine:",total)
     else:
-       st.write("he didn't have to pay any fine.")
+       st.success("he didn't have to pay any fine.")
 
